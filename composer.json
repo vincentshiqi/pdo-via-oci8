@@ -1,6 +1,7 @@
 {
     "name": "vincentshiqi/laravel-pdo-via-oci8",
     "description": "PDO userspace driver proxying calls to PHP OCI8 driver",
+    "homepage": "https://github.com/vincentshiqi/pdo-via-oci8",
     "license": "MIT",
     "authors": [
         {
