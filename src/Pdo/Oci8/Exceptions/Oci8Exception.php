@@ -1,6 +1,6 @@
 <?php
 
-namespace Yajra\Pdo\Oci8\Exceptions;
+namespace Vincent\Pdo\Oci8\Exceptions;
 
 use PDOException;
 

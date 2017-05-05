@@ -4,16 +4,16 @@
  * PDO userspace driver proxying calls to PHP OCI8 driver
  *
  * @category Database
- * @package yajra/laravel-pdo-via-oci8
+ * @package vincentshiqi/laravel-pdo-via-oci8
  * @author Arjay Angeles <aqangeles@gmail.com>
  * @copyright Copyright (c) 2013 Arjay Angeles
  * @license MIT
  */
-namespace Yajra\Pdo;
+namespace Vincent\Pdo;
 
 use PDO;
-use Yajra\Pdo\Oci8\Exceptions\Oci8Exception;
-use Yajra\Pdo\Oci8\Statement;
+use Vincent\Pdo\Oci8\Exceptions\Oci8Exception;
+use Vincent\Pdo\Oci8\Statement;
 
 /**
  * Oci8 class to mimic the interface of the PDO class
@@ -236,7 +236,7 @@ class Oci8 extends PDO
 
     /**
      * Executes an SQL statement, returning the results as a
-     * Yajra\Pdo\Oci8\Statement object.
+     * Vincent\Pdo\Oci8\Statement object.
      *
      * @param string $statement The SQL statement to prepare and execute.
      * @param int|null $fetchMode The fetch mode must be one of the

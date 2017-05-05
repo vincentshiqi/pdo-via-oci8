@@ -1,11 +1,11 @@
 <?php
 
-namespace Yajra\Pdo\Oci8;
+namespace Vincent\Pdo\Oci8;
 
 use PDO;
 use PDOStatement;
-use Yajra\Pdo\Oci8;
-use Yajra\Pdo\Oci8\Exceptions\Oci8Exception;
+use Vincent\Pdo\Oci8;
+use Vincent\Pdo\Oci8\Exceptions\Oci8Exception;
 
 /**
  * Oci8 Statement class to mimic the interface of the PDOStatement class
@@ -25,7 +25,7 @@ class Statement extends PDOStatement
     /**
      * PDO Oci8 connection.
      *
-     * @var \Yajra\Pdo\Oci8
+     * @var \Vincent\Pdo\Oci8
      */
     private $connection;
 
